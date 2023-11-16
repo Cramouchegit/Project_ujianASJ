@@ -1,0 +1,51 @@
+body {
+  background-color: gray;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 550px;
+  overflow: hidden;
+  background-color: black;
+  margin-top: -0.1cm;
+}
+li {
+  float: left;
+  padding: 5px;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #f1efef;
+}
+
+.image img {
+    margin-left: 20cm;
+    margin-top: 1cm;
+    height: 700px;
+    width: 700px;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -20cm;
+}
+th,
+td {
+  background-color: #96d4d4;
+}
+th {
+  background-color: gray;
+}
